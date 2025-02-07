@@ -31,7 +31,7 @@ export const useGameLogic = () => {
           setShowStatus(true);
           setGameStatus("timeout");
           setStreak(0);
-
+          setScore(0);
           return 0;
         }
         return prevTime - 1;
