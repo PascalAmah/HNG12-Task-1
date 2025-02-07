@@ -10,8 +10,8 @@ const ColorGame = () => {
   const game = useGameLogic();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 p-2 sm:p-4 md:p-8">
-      <div className="mx-auto bg-white rounded-xl shadow-lg p-4 sm:p-6 max-w-sm sm:max-w-md">
+    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 p-0 sm:p-4 md:p-8">
+      <div className="mx-auto bg-white min-h-screen sm:min-h-fit sm:rounded-xl shadow-lg p-4 sm:p-6 sm:max-w-sm md:max-w-md">
         <section className="flex flex-col gap-4">
           <GameTitle />
 
